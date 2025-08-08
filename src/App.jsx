@@ -17,8 +17,8 @@ function App() {
       {/* <Footer/> */}
       {/* <Images/> */}
       {/* <Contactus heroimage={image}/> */}
-      {/* <Navbar /> */}
-      <Home />
+      <Navbar />
+      {/* <Home /> */}
       {/* <Contactpage /> */}
     </>
   )

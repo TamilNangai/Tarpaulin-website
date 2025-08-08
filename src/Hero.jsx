@@ -11,18 +11,18 @@ function Hero() {
     return (
         <>
             <div >
-                <Carousel fade interval={2000} controls={false} indicators={false}>
+                <Carousel fade interval={2000} controls={false} indicators={false} >
                     <Carousel.Item>
-                        <img className="d-block " src={D1} alt="D1" />
+                        <img className="d-block w-auto" src={D1} alt="D1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block" src={D2} alt="D2" />
+                        <img className="d-block w-auto" src={D2} alt="D2" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block " src={D3} alt="D3" />
+                        <img className="d-block  w-auto" src={D3} alt="D3" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block" src={D4} alt="D4" />
+                        <img className="d-block w-auto" src={D4} alt="D4" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block " src={D5} alt="D5" />
