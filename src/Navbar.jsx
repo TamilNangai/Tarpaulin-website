@@ -27,11 +27,11 @@ function Navbar() {
                 {showMenu && (
                     <div className="bg-white fixed inset-0  border h-[72px] ">
                         <ul className="font-[Abhaya-Libre] font-bold text-[10px] flex justify-evenly p-0  mt-3  gap-2 text-center">
-                            <li className=" hover:text-blue-600"><a href="#Home" className="no-underline "><img src={Home} alt="home" />Home</a></li>
-                            <li className=" hover:text-blue-600"><a href="#About" className="no-underline"><img src={About} alt="About" />About</a></li>
-                            <li className=" hover:text-blue-600"><a href="#Product" className="no-underline "><img src={Sell} alt="Sell" />Product</a></li>
-                            <li className=" hover:text-blue-600"><a href="#Conduct" className="no-underline  "><img src={Phonemessage} alt="Phonemessage" />Contact us</a></li>
-                            <li className=" hover:text-blue-600"><button onClick={() => setShowMenu(false)}><img src={Cancel} alt="Cancel" />Cancel</button></li>
+                            <li><a href="#Home" className="no-underline "><img src={Home} alt="home" />Home</a></li>
+                            <li><a href="#About" className="no-underline"><img src={About} alt="About" />About</a></li>
+                            <li><a href="#Product" className="no-underline "><img src={Sell} alt="Sell" />Product</a></li>
+                            <li><a href="#Conduct" className="no-underline  "><img src={Phonemessage} alt="Phonemessage" />Contact us</a></li>
+                            <li><button onClick={() => setShowMenu(false)}><img src={Cancel} alt="Cancel" />Cancel</button></li>
                         </ul>
                     </div>
                 )}
@@ -39,16 +39,16 @@ function Navbar() {
 
                 <div className='max-sm:hidden flex'>
                     <ul className="font-[Abhaya-Libre] font-bold text-[24px] md:flex mt-3 max-lg:text-[18px]">
-                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0 hover:text-blue-600">
+                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0 ">
                             <a href="#Home" className="no-underline ">Home</a>
                         </li>
-                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0  hover:text-blue-600">
+                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0  ">
                             <a href="#About" className="no-underline">About</a>
                         </li>
-                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0  hover:text-blue-600">
+                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0 ">
                             <a href="#Product" className="no-underline ">Product</a>
                         </li>
-                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0 hover:text-blue-600">
+                        <li className="mx-[30px] m-[20px] max-lg:m-3 max-lg:p-0 ">
                             <a href="#Conduct" className="no-underline  ">Contact us</a>
                         </li>
                     </ul>
