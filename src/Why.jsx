@@ -1,12 +1,12 @@
 const WhyChooseUs = () => {
   return (
   
-      <div className=" leading-loose mx-auto text-left text-xs md:max-w-5xl lg:max-w-5xl p-4 ">
-        <h2 className="text-5xl font-bold text-center  mb-6">Why Choose Us?</h2>
+      <div className="text-xs md:text-2xl lg:text-2xl" >
+        <h2 className="text-center text-2xl md:text-5xl font-[Abhaya-Libre] mb-2">Why Choose Us?</h2>
 
-        <ul className="text-2xl list-disc pl-5  ">
+        <ul className="list-disc font-[Be-Vietnam] leading-normal">
           <li>
-            Quality Materials: We use only the best materials to ensure our tarps are tough, durable.
+             Quality Materials: We use only the best materials to ensure our tarps are tough, durable.
           </li>
           <li>
               Customization: Need a specific size or feature? We offer custom tarpaulin solutions tailored to your requirement.
