@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
       <div className="text-xs md:text-2xl lg:text-2xl" >
         <h2 className="text-center text-2xl md:text-5xl font-[Abhaya-Libre] mb-2">Why Choose Us?</h2>
 
-        <ul className="list-disc font-[Be-Vietnam] leading-normal">
+        <ul className="list-disc font-[Be-Vietnam] leading-normal px-5">
           <li>
              Quality Materials: We use only the best materials to ensure our tarps are tough, durable.
           </li>
