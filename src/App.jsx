@@ -12,9 +12,10 @@ import Button from'./Button'
 import Our from'./Our'
 import Why from'./Why'
 import Contact from './Contact'
-import Product from'./Product'
+import Product from'./Product';
 import Feature from'./Feature'
 import Component from'./Component'
+import About from'./About'
 function App() {
 
   return (
@@ -34,7 +35,7 @@ function App() {
       {/* <Product/> */}
       {/* <Feature/> */}
       <Component/>
-     
+     {/* <About/> */}
     </>
   );
 };
