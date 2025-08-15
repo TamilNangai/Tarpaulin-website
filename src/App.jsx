@@ -12,9 +12,10 @@ import Button from './Button'
 import Our from './Our'
 import Why from './Why'
 import Contact from './Contact'
-import Product from './Product'
-import Feature from './Feature'
-import Component from './Component'
+import Product from'./Product'
+import Feature from'./Feature'
+import Component from'./Component'
+import About from './About'
 function App() {
 
   return (
@@ -24,16 +25,17 @@ function App() {
       {/* <Footer/> */}
       {/* <Images/> */}
       {/* <Contactus heroimage={image}/> */}
-      {/* <Navbar /> */}
-      <Home />
-      {/* <Contactpage /> */}
+      {/* <Navbar /> */}  
       {/* <Button/> */}
       {/* <Our/> */}
       {/* <Why/> */}
       {/* <Contact/>  */}
       {/* <Product/> */}
       {/* <Feature/> */}
-      {/* <Component /> */}
+      {/* <Component/> */}
+      {/* <About/> */}
+      <Home />
+      {/* <Contactpage /> */}
     </>
   );
 };

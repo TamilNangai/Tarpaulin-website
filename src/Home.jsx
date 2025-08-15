@@ -5,6 +5,7 @@ import Images from './Images'
 import Footer from './Footer'
 import Button from './Button'
 import Our from './Our'
+import About from './About'
 import Why from './Why'
 import Contact from './Contact'
 
@@ -13,7 +14,7 @@ function Home() {
     <div>
         <Navbar/>
         <Hero/>
-      <Our />
+      <About/>
         <Images/>
         <Button/>
         <Our />
