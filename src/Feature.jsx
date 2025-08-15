@@ -1,3 +1,4 @@
+
 const Feature =() => {
     return(
          <div>
@@ -6,4 +7,5 @@ const Feature =() => {
         </div>
         );
 }
+
 export default Feature;
