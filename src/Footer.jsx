@@ -8,7 +8,7 @@ import What from './assets/footer/footerDv/WhatsApp.png'
 function Footer() {
     return (
         <div>
-            <footer className='w-full h-auto bg-gray-100 max-sm:h-auto '>
+            <footer className='w-full h-auto bg-gray-100 max-sm:h-auto mt-5'>
                 <p className='text-3xl font-bold  p-8 text-black  font-[Abhaya-Libre] max-lg:text-3xl  max-sm:text-[14px] max-sm:p-1 '>SAFE GUARD TARPS</p>
                 <div className='flex  justify-evenly pb-1 '>
                     <div className='flex lg:w-[40%]  lg:ms-36 md:w-[50%] w-[40%]'>

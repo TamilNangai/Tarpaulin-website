@@ -1,3 +1,4 @@
+
 import btn from'./assets/Next.png'
 
 function Button() {
@@ -7,4 +8,5 @@ function Button() {
     </div>
   );
 } 
+
 export default Button;
