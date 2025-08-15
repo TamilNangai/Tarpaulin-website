@@ -8,6 +8,7 @@ import Images from './Images'
 import Navbar from './Navbar'
 import Home from './Home';
 import Contactpage from './Contactpage';
+
 function App() {
 
   return (
@@ -20,6 +21,8 @@ function App() {
       {/* <Navbar /> */}
       <Home />
       {/* <Contactpage /> */}
+      {/* <Product/> */}
+     
     </>
   )
 }
