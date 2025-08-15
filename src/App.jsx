@@ -30,10 +30,10 @@ function App() {
       {/* <Button/> */}
       {/* <Our/> */}
       {/* <Why/> */}
-      <Contact/> 
+      {/* <Contact/>  */}
       {/* <Product/> */}
       {/* <Feature/> */}
-      {/* <Component/> */}
+      <Component/>
      
     </>
   );
