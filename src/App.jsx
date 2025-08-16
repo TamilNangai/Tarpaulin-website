@@ -1,43 +1,24 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Contactus from './Contactus'
-import Hero from './Hero'
-import image from './assets/contactus/Contactus.png'
-import imageproduct from './assets/contactus/Producthero.png'
-import Footer from './Footer'
-import Images from './Images'
-import Navbar from './Navbar'
-import Home from './Home';
-import Contactpage from './Contactpage';
-import Button from './Button'
-import Our from './Our'
-import Why from './Why'
-import Contact from './Contact'
-import Product from'./Product'
-import Feature from'./Feature'
-import Component from'./Component'
-import About from './About'
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home"
+import Contactpage from "./Contactpage"
+import Aboutpage from "./Aboutpage"
+import Navbar from './Navbar';
+import Footer from './Footer';
+
 function App() {
-
   return (
-    <>
-      {/* <Hero/> */}
-      {/* <Contactus heroimage={imageproduct}/> */}
-      {/* <Footer/> */}
-      {/* <Images/> */}
-      {/* <Contactus heroimage={image}/> */}
-      {/* <Navbar /> */}  
-      {/* <Button/> */}
-      {/* <Our/> */}
-      {/* <Why/> */}
-      {/* <Contact/>  */}
-      {/* <Product/> */}
-      {/* <Feature/> */}
-      {/* <Component/> */}
-      {/* <About/> */}
-      <Home />
-      {/* <Contactpage /> */}
-    </>
-  );
-};
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Aboutpage" element={<Aboutpage />} />
+        {/* <Route path="/Product" element={<Product />} /> */}
+        <Route path="/Contactpage" element={<Contactpage />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  )
+}
 
-export default App;
+export default App

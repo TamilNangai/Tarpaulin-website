@@ -1,8 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './Hero'
 import Images from './Images'
-import Footer from './Footer'
 import Button from './Button'
 import Our from './Our'
 import About from './About'
@@ -12,15 +10,13 @@ import Contact from './Contact'
 function Home() {
   return (
     <div>
-        <Navbar/>
-        <Hero/>
-      <About/>
-        <Images/>
-        <Button/>
-        <Our />
-        <Why/>
-        <Contact/>
-        <Footer/>
+      <Hero />
+      <About />
+      <Images />
+      <Button />
+      <Our />
+      <Why />
+      <Contact />
     </div>
   )
 }
